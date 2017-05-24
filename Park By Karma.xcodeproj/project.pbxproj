@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		880513F51ED5CDF8003D3DC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880513F41ED5CDF8003D3DC1 /* AppDelegate.swift */; };
+		880513F71ED5CDF8003D3DC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880513F61ED5CDF8003D3DC1 /* ViewController.swift */; };
+		880513FA1ED5CDF8003D3DC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880513F81ED5CDF8003D3DC1 /* Main.storyboard */; };
+		880513FD1ED5CDF8003D3DC1 /* Park_By_Karma.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 880513FB1ED5CDF8003D3DC1 /* Park_By_Karma.xcdatamodeld */; };
+		880513FF1ED5CDF8003D3DC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880513FE1ED5CDF8003D3DC1 /* Assets.xcassets */; };
+		880514021ED5CDF8003D3DC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880514001ED5CDF8003D3DC1 /* LaunchScreen.storyboard */; };
+		8805140D1ED5CDF9003D3DC1 /* Park_By_KarmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805140C1ED5CDF9003D3DC1 /* Park_By_KarmaTests.swift */; };
+		880514181ED5CDF9003D3DC1 /* Park_By_KarmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880514171ED5CDF9003D3DC1 /* Park_By_KarmaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		880514091ED5CDF9003D3DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 880513E91ED5CDF8003D3DC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880513F01ED5CDF8003D3DC1;
+			remoteInfo = "Park By Karma";
+		};
+		880514141ED5CDF9003D3DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 880513E91ED5CDF8003D3DC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880513F01ED5CDF8003D3DC1;
+			remoteInfo = "Park By Karma";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		880513F11ED5CDF8003D3DC1 /* Park By Karma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Park By Karma.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		880513F41ED5CDF8003D3DC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		880513F61ED5CDF8003D3DC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		880513F91ED5CDF8003D3DC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		880513FC1ED5CDF8003D3DC1 /* Park_By_Karma.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Park_By_Karma.xcdatamodel; sourceTree = "<group>"; };
+		880513FE1ED5CDF8003D3DC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		880514011ED5CDF8003D3DC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		880514031ED5CDF8003D3DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880514081ED5CDF9003D3DC1 /* Park By KarmaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Park By KarmaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8805140C1ED5CDF9003D3DC1 /* Park_By_KarmaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park_By_KarmaTests.swift; sourceTree = "<group>"; };
+		8805140E1ED5CDF9003D3DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880514131ED5CDF9003D3DC1 /* Park By KarmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Park By KarmaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		880514171ED5CDF9003D3DC1 /* Park_By_KarmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park_By_KarmaUITests.swift; sourceTree = "<group>"; };
+		880514191ED5CDF9003D3DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		880513EE1ED5CDF8003D3DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880514051ED5CDF9003D3DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880514101ED5CDF9003D3DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		880513E81ED5CDF8003D3DC1 = {
+			isa = PBXGroup;
+			children = (
+				880513F31ED5CDF8003D3DC1 /* Park By Karma */,
+				8805140B1ED5CDF9003D3DC1 /* Park By KarmaTests */,
+				880514161ED5CDF9003D3DC1 /* Park By KarmaUITests */,
+				880513F21ED5CDF8003D3DC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		880513F21ED5CDF8003D3DC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				880513F11ED5CDF8003D3DC1 /* Park By Karma.app */,
+				880514081ED5CDF9003D3DC1 /* Park By KarmaTests.xctest */,
+				880514131ED5CDF9003D3DC1 /* Park By KarmaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		880513F31ED5CDF8003D3DC1 /* Park By Karma */ = {
+			isa = PBXGroup;
+			children = (
+				880513F41ED5CDF8003D3DC1 /* AppDelegate.swift */,
+				880513F61ED5CDF8003D3DC1 /* ViewController.swift */,
+				880513F81ED5CDF8003D3DC1 /* Main.storyboard */,
+				880513FE1ED5CDF8003D3DC1 /* Assets.xcassets */,
+				880514001ED5CDF8003D3DC1 /* LaunchScreen.storyboard */,
+				880514031ED5CDF8003D3DC1 /* Info.plist */,
+				880513FB1ED5CDF8003D3DC1 /* Park_By_Karma.xcdatamodeld */,
+			);
+			path = "Park By Karma";
+			sourceTree = "<group>";
+		};
+		8805140B1ED5CDF9003D3DC1 /* Park By KarmaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8805140C1ED5CDF9003D3DC1 /* Park_By_KarmaTests.swift */,
+				8805140E1ED5CDF9003D3DC1 /* Info.plist */,
+			);
+			path = "Park By KarmaTests";
+			sourceTree = "<group>";
+		};
+		880514161ED5CDF9003D3DC1 /* Park By KarmaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				880514171ED5CDF9003D3DC1 /* Park_By_KarmaUITests.swift */,
+				880514191ED5CDF9003D3DC1 /* Info.plist */,
+			);
+			path = "Park By KarmaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		880513F01ED5CDF8003D3DC1 /* Park By Karma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8805141C1ED5CDF9003D3DC1 /* Build configuration list for PBXNativeTarget "Park By Karma" */;
+			buildPhases = (
+				880513ED1ED5CDF8003D3DC1 /* Sources */,
+				880513EE1ED5CDF8003D3DC1 /* Frameworks */,
+				880513EF1ED5CDF8003D3DC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Park By Karma";
+			productName = "Park By Karma";
+			productReference = 880513F11ED5CDF8003D3DC1 /* Park By Karma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		880514071ED5CDF9003D3DC1 /* Park By KarmaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8805141F1ED5CDF9003D3DC1 /* Build configuration list for PBXNativeTarget "Park By KarmaTests" */;
+			buildPhases = (
+				880514041ED5CDF9003D3DC1 /* Sources */,
+				880514051ED5CDF9003D3DC1 /* Frameworks */,
+				880514061ED5CDF9003D3DC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8805140A1ED5CDF9003D3DC1 /* PBXTargetDependency */,
+			);
+			name = "Park By KarmaTests";
+			productName = "Park By KarmaTests";
+			productReference = 880514081ED5CDF9003D3DC1 /* Park By KarmaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		880514121ED5CDF9003D3DC1 /* Park By KarmaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880514221ED5CDF9003D3DC1 /* Build configuration list for PBXNativeTarget "Park By KarmaUITests" */;
+			buildPhases = (
+				8805140F1ED5CDF9003D3DC1 /* Sources */,
+				880514101ED5CDF9003D3DC1 /* Frameworks */,
+				880514111ED5CDF9003D3DC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880514151ED5CDF9003D3DC1 /* PBXTargetDependency */,
+			);
+			name = "Park By KarmaUITests";
+			productName = "Park By KarmaUITests";
+			productReference = 880514131ED5CDF9003D3DC1 /* Park By KarmaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		880513E91ED5CDF8003D3DC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mcraf;
+				TargetAttributes = {
+					880513F01ED5CDF8003D3DC1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8V5RJL266B;
+						ProvisioningStyle = Automatic;
+					};
+					880514071ED5CDF9003D3DC1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8V5RJL266B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 880513F01ED5CDF8003D3DC1;
+					};
+					880514121ED5CDF9003D3DC1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8V5RJL266B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 880513F01ED5CDF8003D3DC1;
+					};
+				};
+			};
+			buildConfigurationList = 880513EC1ED5CDF8003D3DC1 /* Build configuration list for PBXProject "Park By Karma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 880513E81ED5CDF8003D3DC1;
+			productRefGroup = 880513F21ED5CDF8003D3DC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				880513F01ED5CDF8003D3DC1 /* Park By Karma */,
+				880514071ED5CDF9003D3DC1 /* Park By KarmaTests */,
+				880514121ED5CDF9003D3DC1 /* Park By KarmaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		880513EF1ED5CDF8003D3DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880514021ED5CDF8003D3DC1 /* LaunchScreen.storyboard in Resources */,
+				880513FF1ED5CDF8003D3DC1 /* Assets.xcassets in Resources */,
+				880513FA1ED5CDF8003D3DC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880514061ED5CDF9003D3DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880514111ED5CDF9003D3DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		880513ED1ED5CDF8003D3DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880513FD1ED5CDF8003D3DC1 /* Park_By_Karma.xcdatamodeld in Sources */,
+				880513F71ED5CDF8003D3DC1 /* ViewController.swift in Sources */,
+				880513F51ED5CDF8003D3DC1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880514041ED5CDF9003D3DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8805140D1ED5CDF9003D3DC1 /* Park_By_KarmaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8805140F1ED5CDF9003D3DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880514181ED5CDF9003D3DC1 /* Park_By_KarmaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8805140A1ED5CDF9003D3DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880513F01ED5CDF8003D3DC1 /* Park By Karma */;
+			targetProxy = 880514091ED5CDF9003D3DC1 /* PBXContainerItemProxy */;
+		};
+		880514151ED5CDF9003D3DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880513F01ED5CDF8003D3DC1 /* Park By Karma */;
+			targetProxy = 880514141ED5CDF9003D3DC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		880513F81ED5CDF8003D3DC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880513F91ED5CDF8003D3DC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		880514001ED5CDF8003D3DC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880514011ED5CDF8003D3DC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8805141A1ED5CDF9003D3DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8805141B1ED5CDF9003D3DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8805141D1ED5CDF9003D3DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8V5RJL266B;
+				INFOPLIST_FILE = "Park By Karma/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mcraf.Park-By-Karma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8805141E1ED5CDF9003D3DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8V5RJL266B;
+				INFOPLIST_FILE = "Park By Karma/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mcraf.Park-By-Karma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		880514201ED5CDF9003D3DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8V5RJL266B;
+				INFOPLIST_FILE = "Park By KarmaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mcraf.Park-By-KarmaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Park By Karma.app/Park By Karma";
+			};
+			name = Debug;
+		};
+		880514211ED5CDF9003D3DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8V5RJL266B;
+				INFOPLIST_FILE = "Park By KarmaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mcraf.Park-By-KarmaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Park By Karma.app/Park By Karma";
+			};
+			name = Release;
+		};
+		880514231ED5CDF9003D3DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8V5RJL266B;
+				INFOPLIST_FILE = "Park By KarmaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mcraf.Park-By-KarmaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Park By Karma";
+			};
+			name = Debug;
+		};
+		880514241ED5CDF9003D3DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8V5RJL266B;
+				INFOPLIST_FILE = "Park By KarmaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mcraf.Park-By-KarmaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Park By Karma";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		880513EC1ED5CDF8003D3DC1 /* Build configuration list for PBXProject "Park By Karma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8805141A1ED5CDF9003D3DC1 /* Debug */,
+				8805141B1ED5CDF9003D3DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8805141C1ED5CDF9003D3DC1 /* Build configuration list for PBXNativeTarget "Park By Karma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8805141D1ED5CDF9003D3DC1 /* Debug */,
+				8805141E1ED5CDF9003D3DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8805141F1ED5CDF9003D3DC1 /* Build configuration list for PBXNativeTarget "Park By KarmaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880514201ED5CDF9003D3DC1 /* Debug */,
+				880514211ED5CDF9003D3DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		880514221ED5CDF9003D3DC1 /* Build configuration list for PBXNativeTarget "Park By KarmaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880514231ED5CDF9003D3DC1 /* Debug */,
+				880514241ED5CDF9003D3DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		880513FB1ED5CDF8003D3DC1 /* Park_By_Karma.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				880513FC1ED5CDF8003D3DC1 /* Park_By_Karma.xcdatamodel */,
+			);
+			currentVersion = 880513FC1ED5CDF8003D3DC1 /* Park_By_Karma.xcdatamodel */;
+			path = Park_By_Karma.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 880513E91ED5CDF8003D3DC1 /* Project object */;
+}
