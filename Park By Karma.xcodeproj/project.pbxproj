@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132F5CC7F20F98146E710FBF /* Pods_Park_By_KarmaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC369D47E8369F5160FEFB1 /* Pods_Park_By_KarmaUITests.framework */; };
+		87E07DB9599533B256068CF5 /* Pods_Park_By_KarmaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B6FDE9E3E561B4406401CF /* Pods_Park_By_KarmaTests.framework */; };
 		880513F51ED5CDF8003D3DC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880513F41ED5CDF8003D3DC1 /* AppDelegate.swift */; };
-		880513F71ED5CDF8003D3DC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880513F61ED5CDF8003D3DC1 /* ViewController.swift */; };
+		880513F71ED5CDF8003D3DC1 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880513F61ED5CDF8003D3DC1 /* MainVC.swift */; };
 		880513FA1ED5CDF8003D3DC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880513F81ED5CDF8003D3DC1 /* Main.storyboard */; };
 		880513FD1ED5CDF8003D3DC1 /* Park_By_Karma.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 880513FB1ED5CDF8003D3DC1 /* Park_By_Karma.xcdatamodeld */; };
 		880513FF1ED5CDF8003D3DC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880513FE1ED5CDF8003D3DC1 /* Assets.xcassets */; };
 		880514021ED5CDF8003D3DC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880514001ED5CDF8003D3DC1 /* LaunchScreen.storyboard */; };
 		8805140D1ED5CDF9003D3DC1 /* Park_By_KarmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805140C1ED5CDF9003D3DC1 /* Park_By_KarmaTests.swift */; };
 		880514181ED5CDF9003D3DC1 /* Park_By_KarmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880514171ED5CDF9003D3DC1 /* Park_By_KarmaUITests.swift */; };
+		8805142B1ED5D144003D3DC1 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805142A1ED5D144003D3DC1 /* RoundButton.swift */; };
+		8805142D1ED5DB2F003D3DC1 /* ParkingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805142C1ED5DB2F003D3DC1 /* ParkingVC.swift */; };
+		8805142F1ED5DCA0003D3DC1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8805142E1ED5DCA0003D3DC1 /* GoogleService-Info.plist */; };
+		880514321ED5DE2D003D3DC1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880514311ED5DE2D003D3DC1 /* DataService.swift */; };
+		880514341ED5DEDF003D3DC1 /* ParkingSpotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880514331ED5DEDF003D3DC1 /* ParkingSpotCell.swift */; };
+		880514361ED5DFC1003D3DC1 /* ParkingSpotNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880514351ED5DFC1003D3DC1 /* ParkingSpotNames.swift */; };
+		880514381ED60E14003D3DC1 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880514371ED60E14003D3DC1 /* SignInVC.swift */; };
+		93CAC60BD829EE29967FC5B8 /* Pods_Park_By_Karma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892A223E7FBE6F89F4CA3EC1 /* Pods_Park_By_Karma.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11D8E2C011B4E27321A34324 /* Pods-Park By KarmaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Park By KarmaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Park By KarmaUITests/Pods-Park By KarmaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		50AC3ACC9A7F678C8510D068 /* Pods-Park By KarmaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Park By KarmaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Park By KarmaUITests/Pods-Park By KarmaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60B6FDE9E3E561B4406401CF /* Pods_Park_By_KarmaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Park_By_KarmaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		880513F11ED5CDF8003D3DC1 /* Park By Karma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Park By Karma.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		880513F41ED5CDF8003D3DC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		880513F61ED5CDF8003D3DC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		880513F61ED5CDF8003D3DC1 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		880513F91ED5CDF8003D3DC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		880513FC1ED5CDF8003D3DC1 /* Park_By_Karma.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Park_By_Karma.xcdatamodel; sourceTree = "<group>"; };
 		880513FE1ED5CDF8003D3DC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +62,19 @@
 		880514131ED5CDF9003D3DC1 /* Park By KarmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Park By KarmaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		880514171ED5CDF9003D3DC1 /* Park_By_KarmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park_By_KarmaUITests.swift; sourceTree = "<group>"; };
 		880514191ED5CDF9003D3DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8805142A1ED5D144003D3DC1 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		8805142C1ED5DB2F003D3DC1 /* ParkingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingVC.swift; sourceTree = "<group>"; };
+		8805142E1ED5DCA0003D3DC1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		880514311ED5DE2D003D3DC1 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		880514331ED5DEDF003D3DC1 /* ParkingSpotCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingSpotCell.swift; sourceTree = "<group>"; };
+		880514351ED5DFC1003D3DC1 /* ParkingSpotNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingSpotNames.swift; sourceTree = "<group>"; };
+		880514371ED60E14003D3DC1 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		892A223E7FBE6F89F4CA3EC1 /* Pods_Park_By_Karma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Park_By_Karma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24282B0B3E648DE59C72159 /* Pods-Park By Karma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Park By Karma.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Park By Karma/Pods-Park By Karma.debug.xcconfig"; sourceTree = "<group>"; };
+		D344B3F559FA094A23E1548C /* Pods-Park By KarmaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Park By KarmaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Park By KarmaTests/Pods-Park By KarmaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBEE747F468398E55F5CD02A /* Pods-Park By KarmaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Park By KarmaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Park By KarmaTests/Pods-Park By KarmaTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7F7F6B87CC17DC1EF98FF37 /* Pods-Park By Karma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Park By Karma.release.xcconfig"; path = "Pods/Target Support Files/Pods-Park By Karma/Pods-Park By Karma.release.xcconfig"; sourceTree = "<group>"; };
+		FFC369D47E8369F5160FEFB1 /* Pods_Park_By_KarmaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Park_By_KarmaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93CAC60BD829EE29967FC5B8 /* Pods_Park_By_Karma.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E07DB9599533B256068CF5 /* Pods_Park_By_KarmaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132F5CC7F20F98146E710FBF /* Pods_Park_By_KarmaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07D7B8AFD75E6965C1AC11FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B24282B0B3E648DE59C72159 /* Pods-Park By Karma.debug.xcconfig */,
+				E7F7F6B87CC17DC1EF98FF37 /* Pods-Park By Karma.release.xcconfig */,
+				D344B3F559FA094A23E1548C /* Pods-Park By KarmaTests.debug.xcconfig */,
+				DBEE747F468398E55F5CD02A /* Pods-Park By KarmaTests.release.xcconfig */,
+				50AC3ACC9A7F678C8510D068 /* Pods-Park By KarmaUITests.debug.xcconfig */,
+				11D8E2C011B4E27321A34324 /* Pods-Park By KarmaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85E183A1DCC36DF8DCCD3720 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				892A223E7FBE6F89F4CA3EC1 /* Pods_Park_By_Karma.framework */,
+				60B6FDE9E3E561B4406401CF /* Pods_Park_By_KarmaTests.framework */,
+				FFC369D47E8369F5160FEFB1 /* Pods_Park_By_KarmaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		880513E81ED5CDF8003D3DC1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				8805140B1ED5CDF9003D3DC1 /* Park By KarmaTests */,
 				880514161ED5CDF9003D3DC1 /* Park By KarmaUITests */,
 				880513F21ED5CDF8003D3DC1 /* Products */,
+				07D7B8AFD75E6965C1AC11FD /* Pods */,
+				85E183A1DCC36DF8DCCD3720 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +153,14 @@
 		880513F31ED5CDF8003D3DC1 /* Park By Karma */ = {
 			isa = PBXGroup;
 			children = (
-				880513F41ED5CDF8003D3DC1 /* AppDelegate.swift */,
-				880513F61ED5CDF8003D3DC1 /* ViewController.swift */,
+				880514301ED5DE1F003D3DC1 /* DataServies */,
+				880514271ED5D101003D3DC1 /* Model */,
+				880514261ED5D0FD003D3DC1 /* View */,
+				880514251ED5D0F3003D3DC1 /* Controller */,
+				880514291ED5D11D003D3DC1 /* Assets */,
+				880514281ED5D106003D3DC1 /* SupportingFiles */,
 				880513F81ED5CDF8003D3DC1 /* Main.storyboard */,
-				880513FE1ED5CDF8003D3DC1 /* Assets.xcassets */,
 				880514001ED5CDF8003D3DC1 /* LaunchScreen.storyboard */,
-				880514031ED5CDF8003D3DC1 /* Info.plist */,
-				880513FB1ED5CDF8003D3DC1 /* Park_By_Karma.xcdatamodeld */,
 			);
 			path = "Park By Karma";
 			sourceTree = "<group>";
@@ -128,6 +183,60 @@
 			path = "Park By KarmaUITests";
 			sourceTree = "<group>";
 		};
+		880514251ED5D0F3003D3DC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				880513F61ED5CDF8003D3DC1 /* MainVC.swift */,
+				8805142C1ED5DB2F003D3DC1 /* ParkingVC.swift */,
+				880514371ED60E14003D3DC1 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		880514261ED5D0FD003D3DC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8805142A1ED5D144003D3DC1 /* RoundButton.swift */,
+				880514331ED5DEDF003D3DC1 /* ParkingSpotCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		880514271ED5D101003D3DC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				880514351ED5DFC1003D3DC1 /* ParkingSpotNames.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		880514281ED5D106003D3DC1 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8805142E1ED5DCA0003D3DC1 /* GoogleService-Info.plist */,
+				880513F41ED5CDF8003D3DC1 /* AppDelegate.swift */,
+				880514031ED5CDF8003D3DC1 /* Info.plist */,
+				880513FB1ED5CDF8003D3DC1 /* Park_By_Karma.xcdatamodeld */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		880514291ED5D11D003D3DC1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				880513FE1ED5CDF8003D3DC1 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		880514301ED5DE1F003D3DC1 /* DataServies */ = {
+			isa = PBXGroup;
+			children = (
+				880514311ED5DE2D003D3DC1 /* DataService.swift */,
+			);
+			name = DataServies;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8805141C1ED5CDF9003D3DC1 /* Build configuration list for PBXNativeTarget "Park By Karma" */;
 			buildPhases = (
+				A74EA131AC442C3309997365 /* [CP] Check Pods Manifest.lock */,
 				880513ED1ED5CDF8003D3DC1 /* Sources */,
 				880513EE1ED5CDF8003D3DC1 /* Frameworks */,
 				880513EF1ED5CDF8003D3DC1 /* Resources */,
+				250C6FE4EF30E560A86C7105 /* [CP] Embed Pods Frameworks */,
+				ADDCAE82082F66B1B969F615 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8805141F1ED5CDF9003D3DC1 /* Build configuration list for PBXNativeTarget "Park By KarmaTests" */;
 			buildPhases = (
+				5E8D61F91493D0CB79C82027 /* [CP] Check Pods Manifest.lock */,
 				880514041ED5CDF9003D3DC1 /* Sources */,
 				880514051ED5CDF9003D3DC1 /* Frameworks */,
 				880514061ED5CDF9003D3DC1 /* Resources */,
+				8347B3400CE7883E20775597 /* [CP] Embed Pods Frameworks */,
+				F9EB9F0D09F7FE605DC18536 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 880514221ED5CDF9003D3DC1 /* Build configuration list for PBXNativeTarget "Park By KarmaUITests" */;
 			buildPhases = (
+				37609A9A14F26429646F693D /* [CP] Check Pods Manifest.lock */,
 				8805140F1ED5CDF9003D3DC1 /* Sources */,
 				880514101ED5CDF9003D3DC1 /* Frameworks */,
 				880514111ED5CDF9003D3DC1 /* Resources */,
+				42DC6EEF642DE401445B8916 /* [CP] Embed Pods Frameworks */,
+				8C2F8CDFE0FC305E0B328E08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8805142F1ED5DCA0003D3DC1 /* GoogleService-Info.plist in Resources */,
 				880514021ED5CDF8003D3DC1 /* LaunchScreen.storyboard in Resources */,
 				880513FF1ED5CDF8003D3DC1 /* Assets.xcassets in Resources */,
 				880513FA1ED5CDF8003D3DC1 /* Main.storyboard in Resources */,
@@ -260,14 +379,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		250C6FE4EF30E560A86C7105 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Park By Karma/Pods-Park By Karma-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37609A9A14F26429646F693D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		42DC6EEF642DE401445B8916 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Park By KarmaUITests/Pods-Park By KarmaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E8D61F91493D0CB79C82027 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8347B3400CE7883E20775597 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Park By KarmaTests/Pods-Park By KarmaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C2F8CDFE0FC305E0B328E08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Park By KarmaUITests/Pods-Park By KarmaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A74EA131AC442C3309997365 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADDCAE82082F66B1B969F615 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Park By Karma/Pods-Park By Karma-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9EB9F0D09F7FE605DC18536 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Park By KarmaTests/Pods-Park By KarmaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		880513ED1ED5CDF8003D3DC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8805142B1ED5D144003D3DC1 /* RoundButton.swift in Sources */,
+				8805142D1ED5DB2F003D3DC1 /* ParkingVC.swift in Sources */,
+				880514381ED60E14003D3DC1 /* SignInVC.swift in Sources */,
 				880513FD1ED5CDF8003D3DC1 /* Park_By_Karma.xcdatamodeld in Sources */,
-				880513F71ED5CDF8003D3DC1 /* ViewController.swift in Sources */,
+				880514321ED5DE2D003D3DC1 /* DataService.swift in Sources */,
+				880513F71ED5CDF8003D3DC1 /* MainVC.swift in Sources */,
 				880513F51ED5CDF8003D3DC1 /* AppDelegate.swift in Sources */,
+				880514341ED5DEDF003D3DC1 /* ParkingSpotCell.swift in Sources */,
+				880514361ED5DFC1003D3DC1 /* ParkingSpotNames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +682,7 @@
 		};
 		8805141D1ED5CDF9003D3DC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B24282B0B3E648DE59C72159 /* Pods-Park By Karma.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8V5RJL266B;
@@ -432,6 +696,7 @@
 		};
 		8805141E1ED5CDF9003D3DC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F7F6B87CC17DC1EF98FF37 /* Pods-Park By Karma.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8V5RJL266B;
@@ -445,6 +710,7 @@
 		};
 		880514201ED5CDF9003D3DC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D344B3F559FA094A23E1548C /* Pods-Park By KarmaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +726,7 @@
 		};
 		880514211ED5CDF9003D3DC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBEE747F468398E55F5CD02A /* Pods-Park By KarmaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +742,7 @@
 		};
 		880514231ED5CDF9003D3DC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50AC3ACC9A7F678C8510D068 /* Pods-Park By KarmaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8V5RJL266B;
@@ -489,6 +757,7 @@
 		};
 		880514241ED5CDF9003D3DC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D8E2C011B4E27321A34324 /* Pods-Park By KarmaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8V5RJL266B;
@@ -520,6 +789,7 @@
 				8805141E1ED5CDF9003D3DC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8805141F1ED5CDF9003D3DC1 /* Build configuration list for PBXNativeTarget "Park By KarmaTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +798,7 @@
 				880514211ED5CDF9003D3DC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		880514221ED5CDF9003D3DC1 /* Build configuration list for PBXNativeTarget "Park By KarmaUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +807,7 @@
 				880514241ED5CDF9003D3DC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
