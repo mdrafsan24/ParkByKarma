@@ -14,11 +14,16 @@ class ParkingSpotCell: UITableViewCell {
 
     @IBOutlet weak var parkingSpotNameLbl: UILabel!
     
+    @IBOutlet weak var distanceLbl: UILabel!
+    @IBOutlet weak var numSpotsEmpty: UILabel!
+    //@IBOutlet weak var parkingSpotBG: UIImageView!
     /*
      Called By ParkingVC database function to configure the cell 
      */
-    func configureCell(name: ParkingSpotNames) {
-        self.parkingSpotNameLbl.text = name.spotName
+    func configureCell(name: String, distance: String, numSpotsEmpty: Int) {
+        self.parkingSpotNameLbl.text = name
+        self.distanceLbl.text = distance
+        self.numSpotsEmpty.text = "\(numSpotsEmpty)"
     }
 
     

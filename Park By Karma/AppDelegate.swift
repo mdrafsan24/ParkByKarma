@@ -16,7 +16,7 @@ import FirebaseAuth
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     var window: UIWindow?
-    
+
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
         if let err = error {
             print("Failed to log in with Google: ", err)
@@ -36,12 +36,42 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
             
             guard let uid = user?.uid else { return }
             print("Succesfully loggen onto Firebase with Google", uid)
+            guard let rvc = self.window?.rootViewController else {
+                return
+            }
+            if let vc = self.getCurrentViewController(rvc) {
+                if (Auth.auth().currentUser!.email?.contains("buffalo.edu"))! {
+                    //self.ref
+                    
+                    vc.performSegue(withIdentifier: "didSignIn", sender: self)
+                } else {
+                    GIDSignIn.sharedInstance().signOut()
+                    vc.performSegue(withIdentifier: "signInFailed", sender: self)
+                }
+            }
             
             // Access the storyboard and fetch an instance of the view controller
-            
-
         }
         
+    }
+    
+    
+    func getCurrentViewController(_ vc: UIViewController) -> UIViewController? {
+        if let pvc = vc.presentedViewController {
+            return getCurrentViewController(pvc)
+        }
+        else if let svc = vc as? UISplitViewController, svc.viewControllers.count > 0 {
+            return getCurrentViewController(svc.viewControllers.last!)
+        }
+        else if let nc = vc as? UINavigationController, nc.viewControllers.count > 0 {
+            return getCurrentViewController(nc.topViewController!)
+        }
+        else if let tbc = vc as? UITabBarController {
+            if let svc = tbc.selectedViewController {
+                return getCurrentViewController(svc)
+            }
+        }
+        return vc
     }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {

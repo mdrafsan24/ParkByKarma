@@ -10,6 +10,7 @@ target 'Park By Karma' do
   pod 'Firebase/Database'
   pod 'GoogleSignIn'
   pod 'Firebase/Auth'
+  
   target 'Park By KarmaTests' do
     inherit! :search_paths
     # Pods for testing

@@ -15,6 +15,10 @@ import Foundation
 class ParkingSpotNames {
     private var _spotName: String!
     
+    private var _distanceFromUser: String!
+    
+    private var _numEmptySpots: Int!
+    
     var spotName: String {
         if _spotName != nil {
             return _spotName
@@ -23,7 +27,25 @@ class ParkingSpotNames {
         }
     }
     
-    init(spotName: String) {
+    var distanceFromUser: String {
+        if _distanceFromUser != nil {
+            return _distanceFromUser
+        } else {
+            return ""
+        }
+    }
+    
+    var numEmptySpots: Int {
+        if _numEmptySpots != nil {
+            return _numEmptySpots
+        } else {
+            return 0
+        }
+    }
+    
+    init(spotName: String, distanceFromUser: String, numEmptySpots: Int) {
         self._spotName = spotName
+        self._distanceFromUser = distanceFromUser
+        self._numEmptySpots = numEmptySpots
     }
 }

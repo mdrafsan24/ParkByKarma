@@ -24,6 +24,10 @@
 		880514341ED5DEDF003D3DC1 /* ParkingSpotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880514331ED5DEDF003D3DC1 /* ParkingSpotCell.swift */; };
 		880514361ED5DFC1003D3DC1 /* ParkingSpotNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880514351ED5DFC1003D3DC1 /* ParkingSpotNames.swift */; };
 		880514381ED60E14003D3DC1 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880514371ED60E14003D3DC1 /* SignInVC.swift */; };
+		880F66E81ED7306C00AF40CD /* SignInFailedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880F66E71ED7306C00AF40CD /* SignInFailedVC.swift */; };
+		888012751EE9F63B00001E4D /* LeavingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888012741EE9F63B00001E4D /* LeavingVC.swift */; };
+		888012771EE9F66900001E4D /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888012761EE9F66900001E4D /* MapVC.swift */; };
+		889E65151F25E085008E053C /* ParkingSpotAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889E65141F25E085008E053C /* ParkingSpotAnnotation.swift */; };
 		93CAC60BD829EE29967FC5B8 /* Pods_Park_By_Karma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 892A223E7FBE6F89F4CA3EC1 /* Pods_Park_By_Karma.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +73,10 @@
 		880514331ED5DEDF003D3DC1 /* ParkingSpotCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingSpotCell.swift; sourceTree = "<group>"; };
 		880514351ED5DFC1003D3DC1 /* ParkingSpotNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingSpotNames.swift; sourceTree = "<group>"; };
 		880514371ED60E14003D3DC1 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		880F66E71ED7306C00AF40CD /* SignInFailedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInFailedVC.swift; sourceTree = "<group>"; };
+		888012741EE9F63B00001E4D /* LeavingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeavingVC.swift; sourceTree = "<group>"; };
+		888012761EE9F66900001E4D /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		889E65141F25E085008E053C /* ParkingSpotAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingSpotAnnotation.swift; sourceTree = "<group>"; };
 		892A223E7FBE6F89F4CA3EC1 /* Pods_Park_By_Karma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Park_By_Karma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24282B0B3E648DE59C72159 /* Pods-Park By Karma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Park By Karma.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Park By Karma/Pods-Park By Karma.debug.xcconfig"; sourceTree = "<group>"; };
 		D344B3F559FA094A23E1548C /* Pods-Park By KarmaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Park By KarmaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Park By KarmaTests/Pods-Park By KarmaTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -189,6 +197,9 @@
 				880513F61ED5CDF8003D3DC1 /* MainVC.swift */,
 				8805142C1ED5DB2F003D3DC1 /* ParkingVC.swift */,
 				880514371ED60E14003D3DC1 /* SignInVC.swift */,
+				880F66E71ED7306C00AF40CD /* SignInFailedVC.swift */,
+				888012741EE9F63B00001E4D /* LeavingVC.swift */,
+				888012761EE9F66900001E4D /* MapVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -198,6 +209,7 @@
 			children = (
 				8805142A1ED5D144003D3DC1 /* RoundButton.swift */,
 				880514331ED5DEDF003D3DC1 /* ParkingSpotCell.swift */,
+				889E65141F25E085008E053C /* ParkingSpotAnnotation.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -523,6 +535,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8805142B1ED5D144003D3DC1 /* RoundButton.swift in Sources */,
+				888012771EE9F66900001E4D /* MapVC.swift in Sources */,
+				880F66E81ED7306C00AF40CD /* SignInFailedVC.swift in Sources */,
 				8805142D1ED5DB2F003D3DC1 /* ParkingVC.swift in Sources */,
 				880514381ED60E14003D3DC1 /* SignInVC.swift in Sources */,
 				880513FD1ED5CDF8003D3DC1 /* Park_By_Karma.xcdatamodeld in Sources */,
@@ -531,6 +545,8 @@
 				880513F51ED5CDF8003D3DC1 /* AppDelegate.swift in Sources */,
 				880514341ED5DEDF003D3DC1 /* ParkingSpotCell.swift in Sources */,
 				880514361ED5DFC1003D3DC1 /* ParkingSpotNames.swift in Sources */,
+				888012751EE9F63B00001E4D /* LeavingVC.swift in Sources */,
+				889E65151F25E085008E053C /* ParkingSpotAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,6 +702,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8V5RJL266B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMOAuth2\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+				);
 				INFOPLIST_FILE = "Park By Karma/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mcraf.Park-By-Karma";
@@ -700,6 +725,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8V5RJL266B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMOAuth2\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GTMSessionFetcher\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+				);
 				INFOPLIST_FILE = "Park By Karma/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Mcraf.Park-By-Karma";
